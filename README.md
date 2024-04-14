@@ -28,9 +28,17 @@ The dataset used is the Quora Question Pairs dataset, which contains pairs of qu
 
 The following models are implemented for paraphrase detection:
 
-1. **Logistic Regression**: A traditional machine learning model using TF-IDF vectorization and logistic regression.
-2. **Siamese Neural Network**: A neural network architecture with shared weights for encoding sentence pairs, using LSTM and an embedding layer.
-3. **DistilBERT**: A transformer-based model fine-tuned on the paraphrase detection task using the DistilBERT pre-trained model.
+### Logistic Regression
+
+A traditional machine learning model using TF-IDF vectorization and logistic regression.
+
+### Siamese Neural Network
+
+A neural network architecture with shared weights for encoding sentence pairs, using LSTM and an embedding layer.
+
+### DistilBERT
+
+A transformer-based model fine-tuned on the paraphrase detection task using the DistilBERT pre-trained model.
 
 ## Usage
 
